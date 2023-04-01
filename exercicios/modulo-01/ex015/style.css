@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+* {
+    font-weight: bolder;
+}
+
+body {
+    background-color: aqua;
+}
+
+h1, p {
+    color: white;
+}
