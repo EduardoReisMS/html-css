@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+* { 
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-video {
+    margin-bottom: 10px;
+}
