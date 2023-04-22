@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        th,td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption> <!-- especifica a legenda (ou título) de uma tabela. -->
+            <th>Minha tabela</th>
+        </caption>
+        <tbody> <!-- Define o corpo da tabela -->
+            <tr> <!-- Define uma linha da tabela, onde todos os dados colocados dentro da tag serão alinhados de forma horizontal -->
+                <th>Aqui vai o título da célula</th>
+                <th>Jogou pro lado</th>
+                <!-- Para títulos, é recomendado o uso da tag th -->
+            </tr>
+            <tr>
+                <td>Aqui vai os dados da célula</td>
+                <td>Foi pro lado</td>
+                <!-- Todos os dados são alinhados de forma horizontal. Para adicionar dados abaixo, é necessário criar uma nova tag <tr> e nela adicionar os dados que vai querer na linha de baixo -->
+                <!-- Para dados, é recomendado o uso da tag td -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <th>Se necessário, aqui vai o rodapé da Tabela</th>
+        </tfoot>
+    </table>
+</body>
+</html>
