@@ -88,3 +88,7 @@ selector:pseudo-class -> Usada para definir um estado especial de um elemento.
 		::selection		p::selection			Seleciona a parte de um elemento que é selecionado por um usuário
 
 list-style
+
+Inputs:
+
+Quando utilizar o input para envio de arquivo, o method do form precisa ser o POST (elementos que passam de 3000 bits
