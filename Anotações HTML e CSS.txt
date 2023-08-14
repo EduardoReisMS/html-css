@@ -92,3 +92,9 @@ list-style
 Inputs:
 
 Quando utilizar o input para envio de arquivo, o method do form precisa ser o POST (elementos que passam de 3000 bits
+
+Media Query:
+
+- É a mesma coisa que Media Types + Media Features;
+
+- Quando utilizo media, posso informar media types e (media features) sendo o media features dentro de (). Ex.: screen and (orientation: portrait)
