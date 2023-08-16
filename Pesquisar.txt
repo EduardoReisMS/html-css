@@ -1,2 +1,3 @@
 box-sizing;
 propriedades do display;
+Typical Device Breakpoints;
